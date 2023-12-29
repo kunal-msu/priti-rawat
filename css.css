@@ -1,14 +1,29 @@
-body {
-    background-color:rgb(162, 9, 111);
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-}
+body { background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .menu{ 
+    width: 400px;
+    float: left;
+    height: auto;
+    
 
+  }
+  ul {
+    float: left;
+    display:flex;
+    justify-content: center;
+    align-items: center ;
+
+  }
+   
+    
 
 header {
-    background-color:black;
+    background-color:rgb(0, 0, 0);
     padding: 10px 0;
 }
+
 
 
 .navbar {
@@ -24,6 +39,7 @@ header {
 
 .logo{
     align-items: center;
+    padding-left: 20px;
     position:fixed;
     height:auto;
     left:140px;
@@ -72,7 +88,7 @@ header {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    width:100vh;
+    width:1vh;
     height:10vh;
 }
 
@@ -118,6 +134,10 @@ border: white;
 
 .login-btn:hover{
     background-color:black;}
+    
+
+
+   
 
 
 .signup-btn:hover {
