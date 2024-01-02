@@ -1,21 +1,28 @@
-body { background-image: url("bg.jpg");
+{ background-image: url("bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .menu{ 
-    width: 400px;
-    float: left;
-    height: auto;
+  .menu{
+    display: flex;
+    width:1700px;
+    justify-content: space-between;
+    background-color: aqua;
     
 
   }
   ul {
-    float: left;
-    display:flex;
-    justify-content: center;
-    align-items: center ;
-
+    flex-grow: 2;
+    background-color: red;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    /* text-decoration: none; */
   }
+
+  li{
+    ;
+  }
+
    
     
 
@@ -29,9 +36,9 @@ header {
 .navbar {
     color:white;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     font-weight: bold;
 }
