@@ -1,25 +1,25 @@
  body{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+
 
 }
 .header{
-    background-color: black;
+    background-color:#004dd1;
 }
 .navbar{
     padding-top: 10px !important;
+
 }
 .nav-item{
-    margin-left: 100px;
+    margin-left: 40px;
     margin-bottom: 10px;
 }
 .nav-link{
-    color:white; 
-    margin-left: 40px;
-    margin-bottom: 10px;
+    color: white; 
+    font-size: 12px;
     padding: 0, 0, 5, 0;
     display: unset;
-
 
 }
 
@@ -41,4 +41,9 @@
 .fa-bars{
     color:white;
     font-size:  40px;
+}
+.navbar-toggler{
+    border: 0;
+    outline: none;
+    padding: initial;
 }
