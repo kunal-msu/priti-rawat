@@ -2,10 +2,15 @@
     margin: 0px;
     padding: 0px;
     font-family: "poppins",sans-serif;
+    text-decoration: none;
     box-sizing: border-box;
 
-
 }
+
+.html{
+    background-color: blueviolet #ce70d8 ;
+}
+
 .header{
     width: 100%;
     height: 10vh;
@@ -14,6 +19,10 @@
     position: relative;
   
 } 
+.row {
+    margin:0;
+    padding-left:20px;
+}
 
 .navbar{
     display: flex;
@@ -23,23 +32,10 @@
     text-align: center;
 
 }
-.nav-item ul{
-    list-style: none;
-    margin-left: 40px;
-    margin-bottom: 10px;
-}
-.nav-link{
-    color: white; 
-    font-size: 12px;
-    padding: 28px 0;
-    display: unset;
+.nav ul{
+    float: right;
 
 }
-.nav-link li{
-    display: flex;
-    margin: 0, 15px;
-}
-
 
 .branding{
     
@@ -68,20 +64,19 @@ ul{
    list-style: none;
 }
 .nav ul li{
+    line-height: 80px;
     display:inline-block;
     margin-right: 20px;
 }
 
 .nav li a :hover{
     color:#fff;
-    transition: 0, 4sec, ease 0;
+    font-size: 17px;
+    text-transform: uppercase;
+
 }
 .banner{
     margin-top: 8%;
-}
-.style content {
-  max-width: 500px;
-  margin: auto;
 }
 
 .banner h1{
@@ -111,6 +106,4 @@ ul{
     background:#fff ;
     color: white;
     margin-right: 5px;
-
-
 }
